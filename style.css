@@ -8,9 +8,38 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    color: #F9FAF8;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
 }
 
 .hlist {
     display: flex;
     list-style: none;
+    gap: 16px;
+}
+
+.sect1 {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    gap: 15px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+
+.hero2 {
+    font-size: 18px;
+    color: #E5E7EB;
 }
