@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #05094b;
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
@@ -23,7 +23,7 @@
 
 .sect1 {
     display: flex;
-    background-color: #1F2937;
+    background-color: #05094b;
     justify-content: space-between;
     padding-bottom: 100px;
     gap: 25px;
@@ -95,7 +95,7 @@
 }
 
 .box {
-    width: 155px;
+    width: 175px;
     height: 160px;
     border: solid #3772F6;
     border-radius: 10px;
@@ -159,7 +159,7 @@
     display: flex;
     height: 100px;
     width: 800px;
-    background-color: #3882F6;
+    background-color: #05094b;
     border-radius: 4px;
     margin: auto;
 }
@@ -186,7 +186,7 @@
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #05094b;
     color: #F9FAF8;
     height: 65px;
     text-align: center;
@@ -194,4 +194,10 @@
 
 .ftext {
 padding-top: 20px;
+}
+
+.small {
+    width: 175px;
+    height: 160px;
+    border-radius: 8px;
 }
