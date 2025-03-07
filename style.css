@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Roboto';
 }
-
 .header, .hlist, .sect1, .left, .sect2, .container, .wrapper, .sect3, .quotebox, .sect4, .wrapper4 {
     display: flex;
 }
@@ -45,138 +44,102 @@
 .sect2, .container, .sect3, .quotebox, .sect4 {
     justify-content: center;
 }
-
-.hlist {
-    list-style: none;
-    gap: 16px;
+.sect2, .quotebox {
+    align-items: center;
 }
-
-.sect1 {
-    
-    gap: 25px;
+.info, .quote {
+    font-size: 36px;
+    color: #1F2937;
 }
-
-.left {
-    gap: 15px;
+.box, .small {
+    width: 175px;
+    height: 160px;
 }
-
-.hero {
-    font-size: 48px;
+.wrapper, .footer {
+    text-align: center;
 }
-
 .hero2, .hlist {
     font-size: 18px;
     color: #E5E7EB;
 }
-
+.sect3, .quotebox {
+    height: 400px;
+}
+.wrapper4, .containerL, .containerR {
+    margin: auto;
+}
+.hlist {
+    list-style: none;
+    gap: 16px;
+}
+.sect1 {
+    gap: 25px;
+}
+.left {
+    gap: 15px;
+}
+.hero {
+    font-size: 48px;
+}
 .b1 {
-    
     border: none;
 }
-
 .right {
     width: fit-content;
-    
 }
-
 .crab {
     width: 340px;
     border: 5px solid #F9FAF8;
 }
-
 .sect2 {
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    
+    gap: 20px;   
 }
-
 .info {
-    font-size: 36px;
-    color: #1F2937;
     padding: 20px;
-    
-
 }
 .box {
-    width: 175px;
-    height: 160px;
     border: solid #3772F6;
     border-radius: 10px;
 }
-
 .wrapper {
-    text-align: center;
     width: 201px;
-
 }
-
 .subtext {
     max-width: 160px;
-    
 }
-
 .sect3 {
     background-color: #E5E7EB;
-    height: 400px;
     margin-top: 100px;
 }
-
-.quotebox {
-    height: 400px;
-    align-items: center;
-
-}
-
 .quote {
-    font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
     max-width: 770px;
 }
-
 .quoteauth {
     align-self: flex-end;
-    
 }
-
 .sect4 {
     align-content: center;
     height: 300px;
-    
 }
-
 .wrapper4 {
     height: 100px;
     width: 800px;
     border-radius: 4px;
-    margin: auto;
 }
-
-.containerL, .containerR {
-    margin: auto;
-}
-
 .sign {
     font-weight: 300;
 }
-
 .b2 {
     border: 1px solid white
 }
-
 .footer {
     height: 65px;
-    text-align: center;
 }
-
 .ftext {
     padding-top: 20px;
 }
-
 .small {
-    width: 175px;
-    height: 160px;
     border-radius: 8px;
 }
